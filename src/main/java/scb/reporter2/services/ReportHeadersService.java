@@ -5,7 +5,7 @@ import scb.reporter2.model.ReportHeader;
 import java.util.List;
 
 
-public interface ReportsService {
+public interface ReportHeadersService {
     List<ReportHeader> getAllReportHeaders();
     List<ReportHeader> getReportsByGroup(int groupId);
 }

@@ -7,11 +7,11 @@ import scb.reporter2.repositories.ReportRepository;
 import java.util.List;
 
 @Service
-class ReportServiceImpl implements ReportsService {
+class ReportHeadersServiceImpl implements ReportHeadersService {
 
     private final ReportRepository reportRepository;
 
-    ReportServiceImpl(ReportRepository reportRepository) {
+    ReportHeadersServiceImpl(ReportRepository reportRepository) {
         this.reportRepository = reportRepository;
     }
 
